@@ -21,3 +21,4 @@ app.use('/chapter-1', chap1Controller);
 app.use('/chapter-2', chap2Controller);
 app.use('/chapter-3', chap3Controller);
 app.use('/madness', madnessController);
+app.use(express.static('./public'));
